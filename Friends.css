@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {background:url(https://html5book.ru/wp-content/uploads/2015/10/background54.png)}
+a {
+  text-decoration: none;
+  outline: none;
+  display: inline-block;
+  padding: 18px 40px;
+  margin: 10px 20px;
+  border-radius: 30px;
+  background-image: linear-gradient(45deg, #6ab1d7 0%, #000000 50%, #008000 50%);
+  background-position: 100% 0;
+  background-size: 50% 50%;
+  font-family: 'Montserrat', san-serif;
+  font-size: 10px;
+  font-weight: 300;
+  color: #0000
+  box-shadow: 0 16px 32px 0 rgba(0,40,120,.35);
+  transition: .5s;
+}
+a:hover {
+  box-shadow: 0 0 0 0 rgba(0,40,120,0);
+  background-position: 0 0;
+}
+body {background: url(https://html5book.ru/wp-content/uploads/2015/07/background39.png);}
+form {
+  text-decoration: none;
+  outline: none;
+  display: inline-block;
+  width: 140px;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 35px;
+  margin: 10px 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 2px;
+  font-weight: 600;
+  color: #524f4e;
+  background: black;
+  box-shadow: 0 8px 15px rgba(0,0,0,.1);
+  transition: .3s;
+}
+
+button{
+background-image: linear-gradient(45deg, #6ab1d7 0%, #000000 50%, #008000 50%);
+}
+
+form:hover {
+  background: #2EE59D;
+  box-shadow: 0 15px 20px rgba(46,229,157,.4);
+  color: white;
+  transform: translateY(-7px);
+}
+li {
+    list-style:none;
+}
+
+.bar {
+    display: inline-block;
+}
+
+.bar {
+    width: 30%;
+    min-height: 100%;
+    background: #7FFF00;
+}
+
+.img_div {
+    min-height: 300px;
+}
